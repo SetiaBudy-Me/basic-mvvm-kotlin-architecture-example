@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#181818</color>
+    <color name="colorAccent">#FF0000</color>
+
+    <color name="background">#F7F4F4</color>
+
+    <!-- Color Grey -->
+    <color name="grey">#999999</color>
+    <color name="light_grey">#F0EEEE</color>
+    <color name="dark_grey">#666666</color>
+
+    <!-- Color list -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#4169E1</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="light_green">#C8EBC8</color>
+    <color name="dark_green">#005A00</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FF5722</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Basic MVVM Kotlin</string>
+
+    <!--Main-->
+    <string name="main_just_opened">You have just opened a activity</string>
+    <string name="main_update_text">Update text</string>
+</resources>
