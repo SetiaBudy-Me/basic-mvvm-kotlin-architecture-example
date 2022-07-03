@@ -6,8 +6,8 @@ import com.l3udy.basicmvvmkotlin.model.DataModel
 
 /*
  *  MainViewModel
- *  - viewModel that updates the MainActivity (the visible UI)
- *  - gets the data from model
+ *  - ViewModel that updates the MainActivity (the visible UI)
+ *  - Gets the data from model
  */
 class MainViewModel : ViewModel() {
 
