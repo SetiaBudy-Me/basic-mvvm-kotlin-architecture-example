@@ -15,3 +15,13 @@ Contoh aplikasi Android sederhana untuk menunjukkan cara kerja arsitektur MVVM, 
 </div>
 
 $~~$
+
+### LifecycleObserever
+LifecycleObserever adalah salah satu komponen Arsitektur Jetpack dan merupakan antarmuka yang mengamati dan melakukan tugas yang ditentukan tergantung pada perubahan Siklus Hidup pemilik Siklus Hidup. Misalnya, MainActivity memiliki siklus hidupnya sendiri dan dirinya sendiri adalah pemilik Siklus Hidup dan kita dapat mengimplementasikan antarmuka LifecycleObserever dan melampirkan pengamat ini ke MainActivity sehingga operasi tertentu dapat dilakukan saat siklus hidup MainActivity berubah.
+
+$~~$
+
+### Menambahkan Lifecycle ke file gradle Anda
+  
+>     // Add Lifecycle  
+>     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
