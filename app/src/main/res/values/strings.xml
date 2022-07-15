@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">Basic MVVM Kotlin</string>
 
+    <!--Login-->
+    <string name="login">Login</string>
+    <string name="login_enter_email_address">Enter email address</string>
+    <string name="login_enter_password">Enter password</string>
+    <string name="login_email_password_empty">Email or password can\'t be empty</string>
+
     <!--Main-->
     <string name="main_just_opened">You have just opened a activity</string>
     <string name="main_update_text">Update text</string>
+
 </resources>
