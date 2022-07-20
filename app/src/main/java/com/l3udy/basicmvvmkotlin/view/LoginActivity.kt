@@ -27,12 +27,13 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Set viewModel
         viewModel = ViewModelProvider(this)[LoginViewModel::class.java]
         setupClickListeners()
         setupObserver()
     }
 
-    // Setup the button in our activity to call getUpdatedText method in viewModel
+    // Setup the button in our activity
     private fun setupClickListeners() {
         binding.btnLogin.setOnClickListener {
             val email = binding.etEmail.text.toString()

@@ -8,7 +8,9 @@
     <string name="login_email_password_empty">Email or password can\'t be empty</string>
 
     <!--Main-->
-    <string name="main_just_opened">You have just opened a activity</string>
-    <string name="main_update_text">Update text</string>
+    <string name="main_number_1">Number 1</string>
+    <string name="main_number_2">Number 2</string>
+    <string name="main_count">Count</string>
+    <string name="main_undefined">-</string>
 
 </resources>

@@ -2,7 +2,7 @@ package com.l3udy.basicmvvmkotlin.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.l3udy.basicmvvmkotlin.model.DataModel
+import com.l3udy.basicmvvmkotlin.model.Data
 
 /*
  *  MainViewModel
@@ -11,16 +11,14 @@ import com.l3udy.basicmvvmkotlin.model.DataModel
  */
 class MainViewModel : ViewModel() {
 
-    // Create the model which contains data for our UI
-    private val model = DataModel(textForUI = "Here's the updated text!")
-
     // Create MutableLiveData which MainActivity can subscribe to
     // When this data changes, it triggers the UI to do an update
-    val uiTextLiveData = MutableLiveData<String>()
+    val resultCount = MutableLiveData<Data>()
 
-    // Get the updated text from our model and post the value to MainFragment
-    fun getUpdatedText() {
-        val updatedText = model.textForUI
-        uiTextLiveData.postValue(updatedText)
+    fun count(number1: Int, number2: Int) {
+        // Create a new variable called result, to accommodate the result
+        val result = number1.times(number2)
+
+        resultCount.value = Data(result)
     }
 }
